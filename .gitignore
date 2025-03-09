@@ -1,0 +1,23 @@
+# Build Folders (you can keep bin if you need it)
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+
+# Build results
+*.exe
+*.dll
+*.pdb
+*.cache
+*.config
+
+# Logs and temporary files
+*.log
+*.tmp
