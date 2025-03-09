@@ -24,10 +24,10 @@ jobs:
             - name: Restore dependencies
               run: dotnet restore
 
-            - name: Install Playwright
+            - name: Install Playwright (just chrome)
               run: |
                   dotnet build
-                  pwsh bin/Debug/net8.0/playwright.ps1 install --with-deps
+                  pwsh bin/Debug/net8.0/playwright.ps1 install chrome --with-deps
 
             - name: Build
               run: dotnet build --no-restore
