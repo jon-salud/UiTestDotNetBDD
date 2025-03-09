@@ -21,3 +21,6 @@ obj/
 # Logs and temporary files
 *.log
 *.tmp
+
+# test results
+TestResults/
