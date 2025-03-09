@@ -1,0 +1,17 @@
+{
+  "$schema": "https://specflow.org/specflow-config.json",
+  "bindingCulture": {
+    "language": "en-US"
+  },
+  "language": {
+    "feature": "en-US"
+  },
+  "stepAssemblies": [],
+  "generator": {
+    "allowDebugGeneratedFiles": true,
+    "allowRowTests": true
+  },
+  "runtime": {
+    "missingOrPendingStepsOutcome": "Error"
+  }
+}
