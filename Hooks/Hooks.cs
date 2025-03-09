@@ -21,7 +21,7 @@ public sealed class Hooks
     public async Task BeforeScenarioAsync()
     {
         _playwright = await Playwright.CreateAsync();
-        _browser = await _playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions { Headless = false });
+        _browser = await _playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions { Headless = true });
         _page = await _browser.NewPageAsync();
 
         // Store page object in scenario context for DI
